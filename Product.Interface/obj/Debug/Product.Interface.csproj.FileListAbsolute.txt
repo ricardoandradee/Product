@@ -1,0 +1,4 @@
+C:\Users\Ricardo\documents\visual studio 2015\Projects\Product\Product.Interface\bin\Debug\Product.Interface.dll
+C:\Users\Ricardo\documents\visual studio 2015\Projects\Product\Product.Interface\bin\Debug\Product.Interface.pdb
+C:\Users\Ricardo\documents\visual studio 2015\Projects\Product\Product.Interface\obj\Debug\Product.Interface.dll
+C:\Users\Ricardo\documents\visual studio 2015\Projects\Product\Product.Interface\obj\Debug\Product.Interface.pdb

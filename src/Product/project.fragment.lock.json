@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "exports": {
+    "Product.Interface/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/Product.Interface.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/Product.Interface.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Product.Interface.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Product.Models/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/Product.Models.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/Product.Models.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Product.Models.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Product.Service/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/Debug/Product.Service.dll": {}
+      },
+      "runtime": {
+        "../packages/MongoDB.Bson.2.3.0/lib/net45/MongoDB.Bson.dll": {},
+        "../packages/MongoDB.Driver.2.3.0/lib/net45/MongoDB.Driver.dll": {},
+        "../packages/MongoDB.Driver.Core.2.3.0/lib/net45/MongoDB.Driver.Core.dll": {},
+        "../packages/mongocsharpdriver.2.3.0/lib/net45/MongoDB.Driver.Legacy.dll": {},
+        "bin/Debug/Product.Service.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Product.Service.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        },
+        "bin/Debug/json/mock_data.json": {
+          "buildAction": "EmbeddedResource",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "json/mock_data.json"
+        }
+      }
+    }
+  }
+}
